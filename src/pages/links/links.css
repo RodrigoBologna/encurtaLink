@@ -1,0 +1,63 @@
+.container-links{
+  
+    margin-left: 50px;
+    margin-top: 30px;
+    
+}
+.topo{
+    display: flex;
+    align-items: center;  
+    
+}
+.topo h1{
+    color: white;
+    font-family: sans-serif;
+}
+.links-area{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    background-color: rgb(255, 255, 255, 0.15); 
+    padding-left: 10px;   
+    margin:10px;
+    border-radius: 5px;
+
+
+}
+.links-area svg{
+    background-color: transparent;
+    margin-right: 10px;
+}
+.link{
+    width: 100%;
+    background-color: transparent;
+    border: none;    
+    color: white;
+    text-align: left;    
+     
+}
+
+.trash{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    transition: 0.3s;
+    
+    
+}
+.trash:hover{
+    transform: scale(1.1);
+}
+
+@media (max-width:600px) {
+    .links-area{
+        width: 80%;
+    }
+    .link{
+        font-size: 10px;
+    }
+    .links-area svg{
+        margin-right: 0px;
+    }
+}

@@ -1,0 +1,71 @@
+.modal-container{
+    position: absolute;
+    bottom: 30px;
+    background-color: white;
+    padding: 15px;
+    width: 500px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    animation: slideY 0.5s;
+    
+}
+
+@keyframes slideY{
+    from{
+        transform: translateY(90px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+.modal-container h2{
+    background-color: transparent;
+}
+
+.modal-container span{
+    background-color: transparent;
+    color: #a7a7a7;
+}
+.modal-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.modal-header svg{
+    background-color: transparent;
+    
+}
+.modal-header button{
+    border: none;
+    background-color: transparent;
+    
+   
+}
+.modal-link{
+    background-color: rgb(1, 1, 73);
+    border: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.modal-link:hover{
+    transform: scale(1.03);
+}
+
+@media(max-width:600px){
+    .modal-container{
+        width: 70%;
+    }
+    .modal-container span{
+        font-size: 12px;
+    }
+}

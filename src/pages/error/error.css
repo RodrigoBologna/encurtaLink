@@ -1,0 +1,28 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container img{
+    max-width: 150px;
+
+}
+
+.container h1{
+    color: white;
+    margin: 20px;
+    font-family: sans-serif;
+}
+
+.container a{
+    background-color: white;
+    padding: 5px 10px;
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    border-radius: 5px;
+}

@@ -1,0 +1,83 @@
+.container-home{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    width: 100vw;    
+    margin-top: 80px;  
+    
+
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo h1{
+    color: white;
+    font-family: 'Grandstander', cursive;
+    font-size: 40px;
+}
+.logo p{
+    color: white;
+    font-family: sans-serif;
+    
+
+}
+
+.logo img{
+    width: 80px;
+}
+.input-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    
+}
+.input-area div{
+    width: 100%;
+    height: 35px;
+    background-color: rgb(255, 255, 255, 0.15);
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.input-area input{
+    width: 100%;
+    height: 35px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    
+}
+.input-area button{
+    height: 35px;
+    background-color: white;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.input-area svg{
+    background-color: transparent;
+    margin:0 10px
+}
+
+@media(max-width: 600px){
+    .logo img{
+        width: 70px;
+    }
+    .logo h1{
+        font-size: 30px;
+    }
+    .input-area{
+        width: 70%;
+    }
+}
