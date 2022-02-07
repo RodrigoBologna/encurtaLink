@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 export async function getLinks(key){
     const myLinks = await localStorage.getItem(key)
 
@@ -30,7 +28,7 @@ export async function saveLinks(key, newLink){
 export function deleteLink(links, id){
 
     let mylinks = links.filter( item => {
-        return( item.id != id)
+        return( item.id !== id)
     })
     localStorage.setItem('@encurta links', JSON.stringify(mylinks));
     alert('Link Deletado com sucesso!')
